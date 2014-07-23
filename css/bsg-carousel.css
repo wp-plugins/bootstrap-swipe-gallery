@@ -1,0 +1,74 @@
+.gallery-modal .modal-dialog .modal-content-gallery { 
+  background-color : #111 ; 
+}
+
+.gallery-modal .modal-dialog .modal-content-gallery .modal-header {
+  padding : 0 ;
+  border : 0 ;
+}  
+
+.gallery-modal .modal-dialog .modal-content-gallery .modal-header .glyphicon-remove-circle {
+  color : #4A4A4A ; 
+  font-size : 20px ;
+  padding : 5px ; 
+}
+
+.gallery-modal  .modal-dialog .modal-content-gallery .modal-header .glyphicon-remove-circle:hover {
+  color : #CCCCCC ;
+}
+
+.gallery-modal .modal-dialog .modal-content-gallery .modal-body {
+  padding : 0 ;
+  background-color : #111 ; 
+}
+
+.gallery-modal .modal-dialog .modal-content-gallery .carousel.carousel-gallery {
+  margin-bottom : 0 !important ;
+  overflow : visible ;   
+  position : relative ;
+  max-height : none ;  
+}
+
+.gallery-modal .carousel.carousel-gallery .right.carousel-control .glyphicon {
+  right : 10px ;
+  margin-right : 0 ;
+}
+
+.gallery-modal .carousel.carousel-gallery .left.carousel-control .glyphicon {
+   left : 10px ;
+   margin-left : 0 ;
+}
+
+.gallery-modal .carousel.carousel-gallery .carousel-control {
+  width : 5% ;
+  opacity : .1 ;
+}
+
+.gallery-modal .carousel.carousel-gallery .carousel-control:hover {
+  opacity : .7 ;
+}  
+
+.gallery-modal .carousel.carousel-gallery .carousel-indicators {
+  bottom : 5px ;
+  margin-bottom : 0 ;   
+}
+
+.gallery-modal .carousel.carousel-gallery .carousel-inner .item {
+  width : auto ; 
+  position : relative ;
+  background-color : #111 ;  
+}
+
+.gallery-modal .carousel.carousel-gallery .carousel-inner > .item img {
+  position : absolute ;   
+  bottom : 30px ;
+  left : 0 ;
+  right : 0 ;
+  width : auto;
+  height : auto ;
+  max-width : 100%;
+  max-height : 85%;
+  margin : 0 auto ; 
+  border : 0 !important ;
+}
+
