@@ -59,6 +59,7 @@
 }
 
 .gallery-modal .carousel.carousel-gallery .carousel-inner .item {
+  max-height : 80% ; 
   width : auto ; 
   position : relative ;
   background-color : #111 ;  
