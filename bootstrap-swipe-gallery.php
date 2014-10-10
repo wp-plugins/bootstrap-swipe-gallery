@@ -2,10 +2,10 @@
 
 /*
 Plugin Name: Bootstrap Swipe Gallery
-Plugin URI: www.ryankienstra.com/swipe-gallery
+Plugin URI: www.ryankienstra.com/bootstrap-swipe-gallery
 Description: Swipe through gallery images on touch devices. Image sizes adjust to screen size. Must have Twitter Bootstrap 3. 
 
-Version: 1.0.2
+Version: 1.0.3
 Author: Ryan Kienstra
 Author URI: www.ryankienstra.com
 License: GPL2
@@ -32,7 +32,7 @@ function bsg_activate_with_default_options() {
 
 add_action( 'plugins_loaded' , 'bsg_text_domain' ) ;
 function bsg_text_domain() {
-  load_plugin_textdomain( 'bootstrap-swipe-gallery' ) ; 
+  load_plugin_textdomain( 'bootstrap-swipe-gallery' , false , basename( dirname( __FILE__ ) ) . '/languages' ) ;  
 }
 
 add_action( 'plugins_loaded' , 'bsg_get_required_files' ) ;
@@ -64,7 +64,7 @@ function bsg_post_should_have_a_swipe_gallery( $post ) {
   return ( bsg_post_has_a_gallery( $post ) || bsg_do_make_carousel_of_post_images() ) ; 
 }
 
-function bsg_post_has_a_gallery( $post ) {
+function bsg_post_has_a_gallery( $post ) {  
   $galleries = get_post_galleries( $post->id , false ) ;
   if ( $galleries ) {
     return true ;
