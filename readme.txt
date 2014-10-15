@@ -22,6 +22,8 @@ Swipe through your gallery. Fast page load for mobile devices.
 * Doesn't change the gallery on your page. Only creates a pop-up when you click. 
 * Don't download if you need to be sure this works. This plugin is fast beacuse it uses your Glyphicons. You'll see if it works when you activate it and click on a gallery image, though.
 
+[youtube http://www.youtube.com/watch?v=02O4eloTd9Y]
+
 == Installation ==
 
 1. Upload the bootstrap-swipe-gallery directory to your /wp-content/plugins directory.
