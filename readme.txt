@@ -3,8 +3,8 @@ Contributors: ryankienstra
 Donate link: http://jdrf.org/get-involved/ways-to-donate/
 Tags: Bootstrap, gallery, mobile, swipe, responsive
 Requires at least: 3.9
-Tested up to: 4.0 
-Stable tag: 1.0.3
+Tested up to: 4.1 
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,8 @@ Swipe through your gallery. Fast page load for mobile devices.
 * Doesn't work with "Customizr," "Inkzine," and "Radiant."
 * Doesn't change the gallery on your page. Only creates a pop-up when you click. 
 * Don't download if you need to be sure this works. This plugin is fast beacuse it uses your Glyphicons. You'll see if it works when you activate it and click on a gallery image, though.
+
+[youtube http://www.youtube.com/watch?v=02O4eloTd9Y]
 
 == Installation ==
 
@@ -46,6 +48,9 @@ Create a gallery in a post or page. Click "New Post," "Add Media," and "Create G
 
 == Changelog ==
 
+= 1.0.4 =
+* Stability fix: only 20 images allowed in each pop-up.
+
 = 1.0.3 =
 * Bug fix: images used to appear out of order. 
 
@@ -60,6 +65,9 @@ Create a gallery in a post or page. Click "New Post," "Add Media," and "Create G
 * First version
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+Stability fix: Only 20 images per pop-up.
 
 = 1.0.3 =
 Bug fix: images used to appear out of order.
